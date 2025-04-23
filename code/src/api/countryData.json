@@ -1,0 +1,43 @@
+[{
+        "id": 1,
+        "countryName": "Japan",
+        "capital": "Tokyo",
+        "population": 125800000,
+        "interestingFact": "Japan has more than 6,800 islands."
+    },
+    {
+        "id": 2,
+        "countryName": "Italy",
+        "capital": "Rome",
+        "population": 59000000,
+        "interestingFact": "Italy is home to the most UNESCO World Heritage Sites."
+    },
+    {
+        "id": 3,
+        "countryName": "Kazakhstan",
+        "capital": "Astana",
+        "population": 19000000,
+        "interestingFact": "It is the world's largest landlocked country."
+    },
+    {
+        "id": 4,
+        "countryName": "Pakistan",
+        "capital": "Islamabad",
+        "population": 241500000,
+        "interestingFact": "Home to the second-highest mountain, K2."
+    },
+    {
+        "id": 5,
+        "countryName": "Canada",
+        "capital": "Ottawa",
+        "population": 39000000,
+        "interestingFact": "Canada has the longest coastline in the world."
+    },
+    {
+        "id": 6,
+        "countryName": "Brazil",
+        "capital": "Brasília",
+        "population": 215000000,
+        "interestingFact": "Brazil is the largest coffee producer in the world."
+    }
+]

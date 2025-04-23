@@ -1,0 +1,23 @@
+[
+
+    {
+
+        "icon": "MdPlace",
+        "title": "Find Us",
+        "details": "Pune,  Maharashtra"
+
+    },
+
+
+    {
+        "icon": "IoCallSharp",
+        "title": "Call Us",
+        "details": "3232343452"
+    },
+
+    {
+        "icon": "TbMailPlus",
+        "title": "Mail Us",
+        "details": "khansami01@gmail.com"
+    }
+]

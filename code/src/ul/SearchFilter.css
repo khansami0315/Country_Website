@@ -1,0 +1,130 @@
+/* SearchFilter.css - Full Size Dark Theme */
+
+.search-filter-container {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.search-filter-container.dark-theme {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.filter-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-input {
+    padding: 12px 18px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 16px;
+    flex: 1;
+    min-width: 250px;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+    color: #888;
+    opacity: 1;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.3);
+}
+
+.sort-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.sort-btn {
+    padding: 12px 18px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: #e0e0e0;
+    min-width: 80px;
+    text-align: center;
+}
+
+.sort-btn:hover {
+    background-color: #444;
+    transform: translateY(-1px);
+}
+
+.sort-btn:active {
+    transform: translateY(0);
+}
+
+.region-filter {
+    padding: 12px 18px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    cursor: pointer;
+    min-width: 180px;
+    transition: all 0.3s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0e0e0'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+.region-filter:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.3);
+}
+
+.region-filter option {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    padding: 10px;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .filter-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        padding: 0 10px;
+    }
+    .search-input {
+        width: 100%;
+        min-width: unset;
+    }
+    .sort-buttons {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sort-btn {
+        flex: 1;
+    }
+    .region-filter {
+        width: 100%;
+    }
+}

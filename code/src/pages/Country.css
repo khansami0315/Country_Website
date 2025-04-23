@@ -1,0 +1,24 @@
+.grid-four-cols {
+    background-color: #1e1e2f;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+/* SearchOption */
+
+.search-filter-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.search-input,
+.filter-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
