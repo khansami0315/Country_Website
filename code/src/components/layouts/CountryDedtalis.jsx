@@ -2,8 +2,7 @@ import { useEffect, useState, useTransition } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndviDetails } from "../../api/postApi";
 import { Loader } from "../../ul/Loader";
-
-export const CountryDedtalis = () => {
+ const CountryDedtalis = () => {
   const params = useParams();
   const [isPending, startTransition] = useTransition();
   const [country, setCountry] = useState(null); // changed from [] to null
@@ -64,6 +63,8 @@ export const CountryDedtalis = () => {
 };
 
 
+
+export default CountryDedtalis
 
 
 
