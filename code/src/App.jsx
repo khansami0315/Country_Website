@@ -6,7 +6,7 @@ import { Country } from './pages/Country'
 import { Contact } from './pages/Contact'
 import { ErrorPage } from './ul/ErrorPage'
 import AppLayout from "./components/layouts/AppLayout"
-
+import CountryDedtalis  from './components/layouts/CountryDedtalis'
 // Use 'router' here instead of 'route'
 const router = createBrowserRouter([
 
