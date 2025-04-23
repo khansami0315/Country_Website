@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
-import { Footer } from "../../ul/Footer"
-import { Header } from "../../ul/Header"
+import Header from '../../ul/Header'
+import Footer from '../../ul/Footer'
 
  const AppLayout  = () => {
 
