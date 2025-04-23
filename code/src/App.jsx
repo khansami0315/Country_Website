@@ -5,7 +5,7 @@ import { About } from './pages/About'
 import { Country } from './pages/Country'
 import { Contact } from './pages/Contact'
 import { ErrorPage } from './ul/ErrorPage'
-
+import AppLayout from "./components/layouts/AppLayout"
 
 // Use 'router' here instead of 'route'
 const router = createBrowserRouter([
