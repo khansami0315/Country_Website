@@ -4,7 +4,7 @@
 
         "icon": "MdPlace",
         "title": "Find Us",
-        "details": "Pune,  Maharashtra"
+        "details": "Sindh, Hyderabad  "
 
     },
 
@@ -12,12 +12,12 @@
     {
         "icon": "IoCallSharp",
         "title": "Call Us",
-        "details": "3232343452"
+        "details": "03152649345"
     },
 
     {
         "icon": "TbMailPlus",
         "title": "Mail Us",
-        "details": "khansami01@gmail.com"
+        "details": "khansami0315@gmail.com"
     }
 ]
