@@ -1,7 +1,7 @@
 import countryFact from "../api/countryData.json";
 import "./About.css";
 
-export const About = () => {
+ const About = () => {
     return (
         <section className="about-section">
             <div className="about-container container">
@@ -38,3 +38,4 @@ export const About = () => {
         </section>
     );
 };
+export default About;

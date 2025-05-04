@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import { Home } from './pages/Home'
-import { About } from './pages/About'
+import About  from './pages/About'
 import { Country } from './pages/Country'
 import { Contact } from './pages/Contact'
 import { ErrorPage } from './ul/ErrorPage'

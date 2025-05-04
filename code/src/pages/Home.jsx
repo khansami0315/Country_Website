@@ -3,7 +3,7 @@
 // import './Home.css'; // if CSS is in separate file
 import './Home.css';
 import HeroSection from '../ul/HeroSection';
-import { About } from './About';
+import  About  from './About';
 
 export const Home = () => {
   return (
