@@ -1,8 +1,8 @@
-// src/Ul/Header.jsx
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
- const Header = () => {
+const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -16,10 +16,10 @@ import "./Navbar.css";
         ☰
       </div>
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/country">Country</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/country">Country</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
