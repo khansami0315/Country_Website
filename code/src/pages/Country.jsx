@@ -3,6 +3,7 @@ import { getCountryData } from "../api/postApi";
 import { Loader } from "../ul/Loader";
 import "./Country.css";
 import { SearchFilter } from "../ul/SearchFilter";
+import CountryCard from "../components/layouts/CountryCard";
 
 export const Country = () => {
   const [isPending, startTransition] = useTransition();

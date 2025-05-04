@@ -31,12 +31,12 @@ const router = createBrowserRouter([
       },
     
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact/>
       },
 
       {
-        path: "/Country/:id",
+        path: "/country/:id",
         element: <CountryDedtalis/>
       },
     ]
